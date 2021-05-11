@@ -11,12 +11,12 @@ fun main() {
     println("$time ms")
 }
 
-suspend fun longCalc(startNum: Int): Int {
+private suspend fun longCalc(startNum: Int): Int {
     delay(1000)
     return startNum + 1
 }
 
-fun synchronous() = runBlocking {
+private fun synchronous() = runBlocking {
     val x1 = longCalc(100)
     val x2 = longCalc(200)
     val x3 = longCalc(300)
@@ -24,7 +24,7 @@ fun synchronous() = runBlocking {
     println("results = $sum")
 }
 
-fun asyncAwait() = runBlocking {
+private fun asyncAwait() = runBlocking {
     println("async/await beginning")
     val x1 = async {longCalc(100)}
     val x2 = async {longCalc(200)}
