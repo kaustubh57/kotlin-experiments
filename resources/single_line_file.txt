@@ -1,0 +1,2 @@
+Read Single line test file
+ERROR
