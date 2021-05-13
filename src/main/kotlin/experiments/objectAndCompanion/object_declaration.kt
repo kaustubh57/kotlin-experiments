@@ -21,6 +21,7 @@ open class Trigonometry {
     }
 }
 
+// like Singleton
 object Maths: Trigonometry() {
     val pi = 3.14 // like static variable in Java
 
