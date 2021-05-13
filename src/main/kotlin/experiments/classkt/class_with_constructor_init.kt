@@ -14,20 +14,10 @@ fun main(args: Array<String>) {
 }
 
 class Dog2 constructor(
-    breed: String,
-    size: Int,
-    color: String
+    var breed: String,
+    var size: Int,
+    var color: String
 ) {
-    var breed: String = ""
-    var size: Int = -1
-    var color: String = ""
-
-    init {
-        this.breed = breed
-        this.size = size
-        this.color = color
-    }
-
     fun bark() {
         println(" Wooh ! Wooh !")
     }
