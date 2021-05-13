@@ -16,5 +16,11 @@ fun main(args: Array<String>) {
         }
     }
 
-
+    // when expression
+    val message = when (x) {
+        in 1..10 -> "x is between 1 and 10"
+        11 -> "x is 11"
+        else -> "x is unknown"
+    }
+    println("with expression $message")
 }
