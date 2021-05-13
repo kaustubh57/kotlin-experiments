@@ -5,7 +5,7 @@ fun main(args: Array<String>) {
     println("---------------")
 
     // First dog
-    var dog1 = Dog()
+    var dog1 = Dog1()
     dog1.breed = "German Shepherd"
     dog1.size = 40
     dog1.color = "Black"
@@ -16,7 +16,7 @@ fun main(args: Array<String>) {
     dog1.bark()
 }
 
-class Dog {
+class Dog1 {
     var breed: String = ""
     var size: Int = -1
     var color: String = ""
