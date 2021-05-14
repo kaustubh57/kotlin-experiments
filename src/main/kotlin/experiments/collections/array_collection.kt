@@ -6,6 +6,8 @@ fun main(args: Array<String>) {
 
     var numbers = Array<Int>(5) { 0 }
 
+    numbers[2] = 24
+
     println(numbers)
 
     for (num in numbers) {
@@ -14,7 +16,7 @@ fun main(args: Array<String>) {
 
     println("===================")
 
-    for (num in numbers.indices) {
-        println(numbers[num])
+    for (numIndex in numbers.indices) {
+        println(numbers[numIndex])
     }
 }
