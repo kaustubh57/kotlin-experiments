@@ -1,5 +1,7 @@
 package experiments.functions
 
+//https://blog.mindorks.com/understanding-inline-noinline-and-crossinline-in-kotlin
+
 fun main(args: Array<String>) {
     println("Inline function")
     println("---------------")
