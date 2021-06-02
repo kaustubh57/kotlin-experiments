@@ -80,3 +80,7 @@ outTmp/
 
 /test.output
 /kotlin-native/dist
+
+# test files
+Demo.txt
+sample-120MB-data*.csv
