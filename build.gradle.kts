@@ -15,6 +15,8 @@ repositories {
 dependencies {
     testImplementation(kotlin("test-junit"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0-RC")
+
+    implementation("com.opencsv:opencsv:5.4")
 }
 
 tasks.test {

@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
 
     // 2. Safe call with let ( ?.let )
     name?.let {
-        println("The length of name is ${name?.length}")
+        println("The length of name is ${name.length}")
     }
 
     // 3. Non-null assertion operator ( !! )
